@@ -24,7 +24,9 @@ struct ContentView: View {
         
         .foregroundColor(.orange)
         .padding()
-        //macmini
+        //9.10 macmini1
+      
+
     }
     var cards :some View{
         LazyVGrid(columns: [GridItem(),GridItem(),GridItem()]){
@@ -39,10 +41,11 @@ struct ContentView: View {
     }
     var cardAdjuster: some View{
         return HStack{
-            cardAdder
+            cardRmover
             
             Spacer()
-            cardRmover
+           //workspace change1
+            cardAdder
         }
         .imageScale(.large)
         .font(.largeTitle)
