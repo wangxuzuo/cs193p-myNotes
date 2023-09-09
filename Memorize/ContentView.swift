@@ -25,6 +25,8 @@ struct ContentView: View {
         .foregroundColor(.orange)
         .padding()
         //macmini
+        //9.10 mbp1
+        //9.10 mbp2
     }
     var cards :some View{
         LazyVGrid(columns: [GridItem(),GridItem(),GridItem()]){
