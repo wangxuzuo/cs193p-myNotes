@@ -39,10 +39,11 @@ struct ContentView: View {
     }
     var cardAdjuster: some View{
         return HStack{
-            cardAdder
+            cardRmover
             
             Spacer()
-            cardRmover
+           //workspace change1
+            cardAdder
         }
         .imageScale(.large)
         .font(.largeTitle)
