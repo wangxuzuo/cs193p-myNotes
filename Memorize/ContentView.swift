@@ -3,7 +3,7 @@
 //  Memorize
 //
 //  Created by 王虚左 on 2023/8/31.
-//
+// Lecture 2 
 
 import SwiftUI
 
@@ -24,9 +24,9 @@ struct ContentView: View {
         
         .foregroundColor(.orange)
         .padding()
-        //macmini
-        //9.10 mbp1
-        //9.10 mbp2
+        //9.10 macmini1
+      
+
     }
     var cards :some View{
         LazyVGrid(columns: [GridItem(),GridItem(),GridItem()]){
