@@ -3,7 +3,7 @@
 //  Memorize
 //
 //  Created by 王虚左 on 2023/8/31.
-//
+// Lecture 2 
 
 import SwiftUI
 
